@@ -1,0 +1,159 @@
+
+/*GENERAL*/
+
+.explora-regular {
+  font-family: "Explora", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.elms-sans {
+  font-family: "Elms Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h1 {
+    font-family: Explora, serif;
+    font-weight: 500;
+    font-size: 100px;
+}
+
+h2, h3, p {
+    font-family: Elms Sans ;
+}
+
+.main_heading {
+    font-size: 120px;
+}
+
+.btn {
+    transition: all 0.5s ease;
+    background-color: #77b0b5;
+    border-color: #77b0b5;
+}
+.btn:hover {
+    transform: scale(1.3);
+    background-color: #c56b6c;
+    border-color: #c56b6c;
+
+}
+
+.navbar {
+    transition: all 2s ease;
+    margin-bottom: 0%;
+}
+
+/*.navbar:hover {
+    
+}*/
+
+/*FOOTER*/
+
+
+.socials {
+    margin-left: 2%;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+
+.socials:link {
+    color: #ffff;
+}
+
+.socials:visited {
+    color: #ffff;
+}
+/*HOME PAGE*/
+
+#home_j {
+    background-color: #77b0b5;
+}
+
+.about-section {
+    font-size: large;
+}
+
+#projects {
+    transition: all 1s ease;
+    opacity: 70%;
+}
+
+#projects:hover{
+    transform: scale(1.02);
+    opacity: 100%;
+}
+
+#carosel-controls {
+    transition: all 1s ease;
+}
+
+#carosel-controls:hover {
+    transform: scale(1.02);
+}
+
+
+
+/*PORTFOLIO*/
+
+#gallery_banner {
+    background-image: url(Images/gallery/Ocean_Banner.png);
+}
+
+.gallery-row {
+    padding: 2.5%;
+    transition: 2s;
+}
+
+
+/*PROJECT*/
+/*1*/
+
+#butterfly {
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1497178398528-7ff4a4bad7ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.designs {
+    margin: 10%;
+}
+/*2*/
+#stone {
+    color: #ffff;
+    background-image: url(https://images.unsplash.com/photo-1604263710021-2ac5cd439907?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.myth {
+    width: 100%;
+}
+
+#card_carousel {
+    margin: 2.5%;
+}
+
+
+
+/*CONTACT*/
+.form-section-title {
+    font-family: Explora, serif;
+    font-size: 120px;
+    color: #77b0b5;
+}
+
+#form {
+    /*font-family: serif;*/
+    font-weight: 200;
+    margin:10%;
+}
+
+.form-label {
+    font-size: 20px;
+    margin-top: 2.5%;
+}
+
+.btn {
+    margin: 3%
+}
